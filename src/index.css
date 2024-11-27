@@ -5,6 +5,7 @@
 @layer{
   html{
     padding: 10px;
+     height: 100vh;
     text-align: center;
     background-size: contain;
   background-repeat: no-repeat;

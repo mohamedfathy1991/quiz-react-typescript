@@ -3,8 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mohamedfathy1991.github.io/quiz-react-typescript"
-,
+  "homepage": "https://mohamedfathy1991.github.io/quiz-react-typescript",
+
+ 
   "scripts": {
     "build": "vite build",
     "predeploy": "npm run build",

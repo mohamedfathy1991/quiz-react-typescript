@@ -3,29 +3,32 @@ import Home from './components/Home';
 import Layout from './components/Layout';
 
 function App() {
-   const routes = createBrowserRouter([
+  const routes = createBrowserRouter([
     {
-      path: '',
+      path: '/',
       element: <Layout />, 
       children: [
         {
-          index: true, 
-          path: '/',
+          index: true,  // المسار الرئيسي '/'
           element: <Home />,
         },
         {
-          path: 'about',
-          element: <div>ASD</div>
+          path: 'a',  // المسار الفرعي 'a'
+          element: <h1>asdsds</h1>,
+        },
+        {
+          path:"*",element:<h2>not found</h2>
         }
+        
       ],
+      
     },
+    
+
   ]);
 
   return (
-    <RouterProvider router={routes} >
- 
-      
-      </RouterProvider>
+<RouterProvider router={routes} />
 
   );
 }
