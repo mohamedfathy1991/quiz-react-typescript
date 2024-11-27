@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/your-repository-name/',
+  base: '/quiz-react-typescript/',
 })
