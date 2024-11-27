@@ -1,0 +1,45 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer{
+  html{
+    padding: 10px;
+    text-align: center;
+    background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+    background-image: linear-gradient(rgb(0, 255, 64,.02),rgba(123, 255, 0, 0.02)),url('./assets/premium_photo-1680303134459-912abf8efe2f.avif');
+  }
+}
+.container {
+  min-height: 100vh;
+  
+  font-size: x-large;
+  
+   
+  
+  
+ 
+  
+  
+}
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 100;
+  font-style: normal;
+  
+}
+ 
+.catamaran {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.quiz{
+  text-shadow: 2px 3px 4px  black ;
+   
+}
